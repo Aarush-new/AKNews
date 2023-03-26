@@ -1,9 +1,10 @@
 import path from 'path';
-import fetch from "node-fetch";
-import NewsAPI from "newsapi";
-import { MongoClient } from "mongodb";
+import fetch from 'node-fetch';
+import NewsAPI from 'newsapi';
+import { MongoClient } from 'mongodb';
 import { fileURLToPath } from 'url';
-import express from "express";
+import express from 'express';
+
 
 const app = express();
 const port = process.env.PORT || 3000;
